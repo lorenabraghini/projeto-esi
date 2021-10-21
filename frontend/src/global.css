@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+body,
+input,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+.pageContainer {
+  height: 100vh;
+  display: flex;
+}
+
+.content {
+  height: 100vh;
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    height: 100vh;
+    flex: 3;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  /* background-color: #331343; */
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 500;
+  cursor: default;
+  width: fit-content;
+}
+
+button {
+  cursor: pointer;
+}
